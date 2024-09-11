@@ -40,7 +40,7 @@ abstract class A {
         System.out.println("Stop");
     }
 }
-
+@FunctionalInterface
 interface B {
 
     void show();

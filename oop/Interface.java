@@ -25,7 +25,6 @@ interface ElectricCar extends Car {
 
     abstract void charge();
 }
-
 interface EngineCar extends Car {
 
     abstract void refuel();
