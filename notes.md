@@ -24,3 +24,21 @@
 # Wrapper Class
 
 ### For every primitive data type we have class for it, like int -> Integer eg. int n=7; Integer n=new Integer(n) also called boxing revert is unboxing;
+
+# Collection
+### collection api is concept of collections
+### Collection is interface
+### Collections is a class
+
+# Threads
+### use imuttable variables to be thread safe or synchronised mehthods when want to be thread safe
+## Thread states
+![Notest](./assets/image.png)
+
+# Comparison
+### Comparator is class which creates a comparator to sort which will be passed in Collections.sor(list,comparator)
+### Comparable is interface that gives power to the class itself how to compare it by overriding compareTo method
+### to compare strings use string1.compareTo(string2): if equals return 0 if greater return +ASCI code if less return -ASCI code
+
+# Networking
+
