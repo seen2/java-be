@@ -40,5 +40,8 @@
 ### Comparable is interface that gives power to the class itself how to compare it by overriding compareTo method
 ### to compare strings use string1.compareTo(string2): if equals return 0 if greater return +ASCI code if less return -ASCI code
 
+# Stream API
+### Once used the Stream variable it can't be reused
+
 # Networking
 
