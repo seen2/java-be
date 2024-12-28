@@ -20,4 +20,13 @@ public class Operators{
     System.out.println(a--);
     System.out.println(--a);
   }
+
+  /**
+   * 1. What will be the output of the following code?
+   * int a = 3, b = 4;
+   * System.out.println(a++ + b); // Output: 7
+   * System.out.println(++a + b); // Output: 9
+   * System.out.println(a-- + b); // Output: 9
+   * System.out.println(--a + b); // Output: 7
+   */
 }

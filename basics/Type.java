@@ -1,3 +1,34 @@
+/*
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>Primitive Data Types>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+byte: 8-bit signed integer, default value: 0
+short: 16-bit signed integer, default value: 0
+int: 32-bit signed integer, default value: 0
+long: 64-bit signed integer, default value: 0L
+float: 32-bit floating-point number, default value: 0.0f
+double: 64-bit floating-point number, default value: 0.0
+boolean: boolean value, default value: false
+char: 16-bit Unicode character, default value: '\u0000' (null character)
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Reference Data Types>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+String: default value: null
+Array: default value: null
+Class: default value: null
+Interface: default value: null
+Enum: default value: null
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Wrapper Classes>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Byte: default value: null
+Short: default value: null
+Integer: default value: null
+Long: default value: null
+Float: default value: null
+Double: default value: null
+Boolean: default value: null
+Character: default value: null
+ */
+
 public class Type{
   public static void main(String []a){
     System.out.println("Hello");
