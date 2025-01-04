@@ -19,6 +19,14 @@ public class Operators{
     System.out.println(++a);
     System.out.println(a--);
     System.out.println(--a);
+     // Write a Java program to demonstrate the use of the bitwise operators (&, |, ^, ~, <<, >>).
+     a=3;b=5;
+     System.out.println(a&b); //bitwise and example 3=11, 5=101, 3&5=1 =>1
+     System.out.println(a|b); //bitwise or  example 3=11, 5=101, 3|5=111 =>7
+     System.out.println(a^b); //bitwise xor example 3=11, 5=101, 3^5=110 =>6
+     System.out.println(~a);  //bitwise not example 3=11, ~3=100 =>4
+     System.out.println(a<<b); // bitwise left shift example 3=11, b=5, 3<<5 = 1100000 => 96
+     System.out.println(a>>b); // bitwise right shift example 3=11, b=5, 3>>5 = 00000->{11}^-1 => 0
   }
 
   /**
