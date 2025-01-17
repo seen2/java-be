@@ -9,10 +9,27 @@ public class Interface {
     nexon.refuel();
     nexon.refuel("petrol");
     nexon.beep();
+    EngineCar c = new Nexon();
+    c.beep();
+    System.out.println(c.getSpeed(10));
+    System.out.println(c.getSpeed(10,20));
+    c.refuel();
+    ((CNGCar)nexon).refuel("CNG");
   }
 }
 
 interface Car {
+
+    default void beep(){
+      System.out.println("CAR BEEP");
+    }
+
+    default int getSpeed(int speed){
+      return speed;
+    }
+    default int getSpeed(int speed, int speed2){
+      return speed + speed2;
+    }
 
     abstract public void start();
 

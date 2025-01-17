@@ -15,6 +15,7 @@ public class AnonymousClass {
         };
         a.show();
         a.beep();
+        @SuppressWarnings("Convert2Lambda")
         B b = new B() {
             @Override
             public void show() {

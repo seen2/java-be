@@ -18,22 +18,23 @@ public class Enums {
           System.out.println(e.getMessage()+", "+e.getClass());
         }
         switch (Laptops.valueOf(name)) {
-            case Laptops.DELL:
+            case Laptops.DELL -> {
                 System.out.println(Laptops.DELL.getPrice());
                 System.out.println("Thank you");
-                break;
-                case Laptops.MACBOOK:
-                System.out.println(Laptops.MACBOOK.getPrice());
-                System.out.println("Thank you");
-                break;
-                case Laptops.PC:
-                System.out.println(Laptops.PC.getPrice());
-                System.out.println("Thank you");
-                break;
-                default:
-                System.out.println("Invalid choice");
-                System.out.println("Thank you");
-                throw new AssertionError();
+            }
+                case Laptops.MACBOOK -> {
+                    System.out.println(Laptops.MACBOOK.getPrice());
+                    System.out.println("Thank you");
+            }
+                case Laptops.PC -> {
+                    System.out.println(Laptops.PC.getPrice());
+                    System.out.println("Thank you");
+            }
+                default -> {
+                    System.out.println("Invalid choice");
+                    System.out.println("Thank you");
+                    throw new AssertionError();
+            }
         }
         switch (Laptops.valueOf(name)) {
           case Laptops.DELL -> System.out.println(Laptops.DELL.getPrice());
