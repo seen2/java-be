@@ -15,8 +15,67 @@ public class Interface {
     System.out.println(c.getSpeed(10,20));
     c.refuel();
     ((CNGCar)nexon).refuel("CNG");
+
+    //diamond problem
+    System.out.println("--------------------DIAMOND PROBLEM----------------------------");
+    C c1 = new C();
+    c1.beep();
+    c1.bang();
+    c1.callShow();
   }
 }
+// default methods diamond problem
+interface A{
+
+    default void beep(){
+      System.out.println("A BEEP");
+    }
+}
+
+@FunctionalInterface
+interface B{
+
+  void bang();
+  default void beep(){
+      System.out.println("B BEEP");
+  }
+  static void show(){
+    System.out.println("B show");
+  }
+  static void showMore(){
+    System.out.println("B show more");
+  }
+}
+
+class C implements A, B{
+
+  @Override
+  public void beep() {
+    A.super.beep();
+  }
+  @Override
+  public void bang() {
+    System.out.println("BANG");
+  }
+  public void callShow(){
+    B.show();
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 interface Car {
 
@@ -50,12 +109,12 @@ interface EngineCar extends Car {
 abstract class CNGCar{
     abstract void refuel(String fuel);
 
-    public void beep(){
-      System.out.println("BEEP");
+    public void beepCng(){
+      System.out.println("BEEP Cng");
     }
 }
 
-class Nexon extends CNGCar implements ElectricCar, EngineCar {
+class Nexon extends CNGCar implements ElectricCar, EngineCar{
 
     @Override
     public void drive() {

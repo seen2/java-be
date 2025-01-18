@@ -18,6 +18,7 @@ public class Sorting {
         Collections.sort(nums); //default
         System.out.println(nums);
         //comparator
+        @SuppressWarnings("Convert2Lambda")
         Comparator<Integer> comp = new Comparator<>() {
             @Override
             public int compare(Integer a, Integer b) {
@@ -39,6 +40,8 @@ public class Sorting {
         studentList.add(new Student("Adam",29));
         studentList.add(new Student("David",11));
         studentList.add(new Student("Peter",31));
+
+        @SuppressWarnings("Convert2Lambda")
         Comparator<Student> studentComparator = new Comparator<>() {
 
             @Override

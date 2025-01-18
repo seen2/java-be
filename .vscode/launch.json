@@ -1,0 +1,211 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "AnonymousClass",
+      "request": "launch",
+      "mainClass": "AnonymousClass",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Arrays",
+      "request": "launch",
+      "mainClass": "Arrays",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "CustomException",
+      "request": "launch",
+      "mainClass": "CustomException",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Enums",
+      "request": "launch",
+      "mainClass": "Enums",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Exc",
+      "request": "launch",
+      "mainClass": "Exc",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Generators",
+      "request": "launch",
+      "mainClass": "Generators",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Generics",
+      "request": "launch",
+      "mainClass": "Generics",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Lambda",
+      "request": "launch",
+      "mainClass": "Lambda",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Operators",
+      "request": "launch",
+      "mainClass": "Operators",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "RaceCondition",
+      "request": "launch",
+      "mainClass": "RaceCondition",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Reading",
+      "request": "launch",
+      "mainClass": "Reading",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Static",
+      "request": "launch",
+      "mainClass": "Static",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Strings",
+      "request": "launch",
+      "mainClass": "Strings",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Type",
+      "request": "launch",
+      "mainClass": "Type",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "VariableArgument",
+      "request": "launch",
+      "mainClass": "VariableArgument",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Arrays(1)",
+      "request": "launch",
+      "mainClass": "collection_api.Arrays",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Maps",
+      "request": "launch",
+      "mainClass": "collection_api.Maps",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Sets",
+      "request": "launch",
+      "mainClass": "collection_api.Sets",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Sorting",
+      "request": "launch",
+      "mainClass": "collection_api.Sorting",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Abstraction",
+      "request": "launch",
+      "mainClass": "paie.Abstraction",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Encapsulation",
+      "request": "launch",
+      "mainClass": "paie.Encapsulation",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Inheritence",
+      "request": "launch",
+      "mainClass": "paie.Inheritence",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "ForEach",
+      "request": "launch",
+      "mainClass": "stream_api.ForEach",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Reduce",
+      "request": "launch",
+      "mainClass": "stream_api.Reduce",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Streams",
+      "request": "launch",
+      "mainClass": "stream_api.Streams",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "RunnableThreads",
+      "request": "launch",
+      "mainClass": "threading.RunnableThreads",
+      "projectName": "java-be_db3b7ac"
+    },
+    {
+      "type": "java",
+      "name": "Calculator",
+      "request": "launch",
+      "mainClass": "tools.Calculator",
+      "projectName": "java-be_db3b7ac"
+    }
+  ]
+}
